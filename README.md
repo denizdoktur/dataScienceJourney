@@ -1,1 +1,1 @@
-This is my first data science project on my journey. The project involves analyzing traffic accident data from the United States at various times. It includes data analysis, visualizing insights through plots, and implementing a machine learning section using the Random Forest algorithm.
+Welcome to my dataScienceJourney This is my first data science project on my journey.
