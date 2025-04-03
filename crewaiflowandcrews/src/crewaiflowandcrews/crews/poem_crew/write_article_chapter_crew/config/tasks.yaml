@@ -1,0 +1,13 @@
+research_chapter:
+  description: >
+    Research {chapter_title} using the outline: {chapter_description} to collect focused insights for a ~300-word chapter. Consider the overall goal: {goal} and the article outline: {article_outline}
+  expected_output: >
+    Targeted insights and data for writing the chapter.
+  agent: researcher
+
+write_chapter:
+  description: >
+    Write a well-structured markdown chapter (~300 words) for {chapter_title} based on the outline {chapter_description}. Ensure alignment with the overall article outline: {article_outline}
+  expected_output: >
+    A concise, markdown-formatted chapter of about 300 words.
+  agent: writer

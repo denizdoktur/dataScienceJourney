@@ -1,0 +1,66 @@
+----------------------------------------------------------------------------------------------------------------------------------------
+class ArticleState(BaseModel):
+    title: str = "The Role of Artificial Intelligence in Healthcare"
+    article: List[Chapter] = []
+    article_outline: List[ChapterOutline] = []
+    topic: str = (
+        "Exploring the transformative impact of artificial intelligence on the healthcare industry, from diagnostics to personalized treatment."
+    )
+    goal: str = """
+        The goal of this article is to provide a comprehensive overview of how artificial intelligence is revolutionizing the healthcare sector.
+        It will explore the latest innovations in medical AI, the challenges associated with integrating AI into clinical practice,
+        and the potential future developments in the field. The article aims to offer insights for healthcare professionals,
+        technologists, and policymakers, highlighting key breakthroughs, ethical considerations, and strategies for effective AI implementation.
+    """
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+"title": "The Role of Artificial Intelligence in Healthcare",
+"topic": "Exploring the transformative impact of artificial intelligence on the healthcare industry, from diagnostics to personalized treatment.",
+"goal": "The goal of this article is to provide a comprehensive overview of how artificial intelligence is revolutionizing the healthcare sector.
+        It will explore the latest innovations in medical AI, the challenges associated with integrating AI into clinical practice,
+        and the potential future developments in the field. The article aims to offer insights for healthcare professionals,
+        technologists, and policymakers, highlighting key breakthroughs, ethical considerations, and strategies for effective AI implementation."
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+class ArticleState(BaseModel):
+    title: str = "AI in Cybersecurity"
+    article: List[Chapter] = []
+    article_outline: List[ChapterOutline] = []
+    topic: str = (
+        "Exploring the role of AI in detecting and preventing cyber threats, and how it enhances cybersecurity measures across various industries."
+    )
+    goal: str = """
+        The goal of this article is to provide a comprehensive overview of the applications of artificial intelligence in cybersecurity. It will explore state-of-the-art AI-driven threat detection, the challenges of evolving cyber threats, and the ethical considerations of automated defense systems. The article aims to offer insights for cybersecurity professionals, IT managers, and policy makers.
+    """
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+"title": "AI in Cybersecurity",
+"topic": "Exploring the role of AI in detecting and preventing cyber threats, and how it enhances cybersecurity measures across various industries.",
+"goal": " The goal of this article is to provide a comprehensive overview of the applications of artificial intelligence in cybersecurity. It will explore state-of-the-art AI-driven threat detection, the challenges of evolving cyber threats, and the ethical considerations of automated defense systems. The article aims to offer insights for cybersecurity professionals, IT managers, and policy makers."
+}
+
+
+    -------------------------------------------------------------------------------------------------------------------------------------
+    class ArticleState(BaseModel):
+    title: str = "AI in Education"
+    article: List[Chapter] = []
+    article_outline: List[ChapterOutline] = []
+    topic: str = (
+        "Exploring the transformative impact of AI on education, from personalized learning and adaptive teaching to administrative automation."
+    )
+    goal: str = """
+       The goal of this article is to provide a comprehensive overview of how artificial intelligence is reshaping the education sector. It will explore the latest innovations in educational technology, the challenges of integrating AI into classrooms, and the potential future trends. The article aims to offer insights for educators, policymakers, and technology developers, highlighting key breakthroughs, ethical considerations, and strategies for effective implementation.
+    """
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+"title": "AI in Education",
+"topic": "Exploring the transformative impact of AI on education, from personalized learning and adaptive teaching to administrative automation.",
+"goal": "The goal of this article is to provide a comprehensive overview of how artificial intelligence is reshaping the education sector. It will explore the latest innovations in educational technology, the challenges of integrating AI into classrooms, and the potential future trends. The article aims to offer insights for educators, policymakers, and technology developers, highlighting key breakthroughs, ethical considerations, and strategies for effective implementation."
+}

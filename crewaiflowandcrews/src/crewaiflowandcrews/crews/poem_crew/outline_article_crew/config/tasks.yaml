@@ -1,0 +1,13 @@
+research_topic:
+  description: >
+    Research {topic} and gather the essential points to form a concise article outline. Focus on high-quality sources and the objective: {goal}
+  expected_output: >
+    Key points and crucial information about {topic} for the outline.
+  agent: researcher
+
+generate_outline:
+  description: >
+    Create a brief, sequential outline with chapter titles and descriptions (max 100 words each). Avoid duplicates and focus on the article’s objective: {goal}
+  expected_output: >
+    A concise chapter outline with titles and short descriptions.
+  agent: outliner
